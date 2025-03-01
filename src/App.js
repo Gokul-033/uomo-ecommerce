@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -26,7 +27,7 @@ const App = () => {
     <>
       <Popup />
       <ScrollToTop />
-      <BrowserRouter>
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -44,7 +45,7 @@ const App = () => {
         </Routes>
         <Footer />
         <Toaster />
-      </BrowserRouter>
+      </Router>
     </>
   );
 };
