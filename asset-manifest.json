@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uomo-ecommerce/static/css/main.22dc8ccf.css",
-    "main.js": "/uomo-ecommerce/static/js/main.70b655ab.js",
+    "main.js": "/uomo-ecommerce/static/js/main.b0604f05.js",
     "static/js/453.08ae69a9.chunk.js": "/uomo-ecommerce/static/js/453.08ae69a9.chunk.js",
     "static/media/dealbg.jpg": "/uomo-ecommerce/static/media/dealbg.e16263520bc1d864bb14.jpg",
     "static/media/about-1.jpg": "/uomo-ecommerce/static/media/about-1.f22a7a5fc0b3ef41a73f.jpg",
@@ -62,11 +62,11 @@
     "static/media/limited-5.jpg": "/uomo-ecommerce/static/media/limited-5.4cf63883feb0f86f8d97.jpg",
     "index.html": "/uomo-ecommerce/index.html",
     "main.22dc8ccf.css.map": "/uomo-ecommerce/static/css/main.22dc8ccf.css.map",
-    "main.70b655ab.js.map": "/uomo-ecommerce/static/js/main.70b655ab.js.map",
+    "main.b0604f05.js.map": "/uomo-ecommerce/static/js/main.b0604f05.js.map",
     "453.08ae69a9.chunk.js.map": "/uomo-ecommerce/static/js/453.08ae69a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22dc8ccf.css",
-    "static/js/main.70b655ab.js"
+    "static/js/main.b0604f05.js"
   ]
 }
