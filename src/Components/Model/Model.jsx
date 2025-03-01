@@ -3,7 +3,8 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export function Model({ color, ...props }) {
-  const { nodes, materials } = useGLTF("/shirt_baked_2.glb");
+  const modelPath = process.env.PUBLIC_URL + "/shirt_baked_2.glb";
+  const { nodes, materials } = useGLTF(modelPath);
   const modelRef = useRef();
 
   const [scale, setScale] = useState([1, 1, 1]);
@@ -24,7 +25,6 @@ export function Model({ color, ...props }) {
     }
 
     updateScale();
-
     window.addEventListener("resize", updateScale);
     return () => window.removeEventListener("resize", updateScale);
   }, []);
@@ -59,4 +59,4 @@ export function Model({ color, ...props }) {
   );
 }
 
-useGLTF.preload("/shirt_baked_2.glb");
+useGLTF.preload(process.env.PUBLIC_URL + "/shirt_baked_2.glb");
